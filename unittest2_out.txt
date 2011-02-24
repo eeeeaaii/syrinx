@@ -1,0 +1,74 @@
+scchunklist: {
+scchunk [main] {
+--scinsertionline:left:riff op: right: --
+--scinsertionline:left:drums op: right: --
+--scinsertionline:left:riff2 op: right: --
+--scinsertionline:left:test op: right: --
+--scinsertionline:left:riff op: right: --
+--scinsertionline:left:riff op:&2 right:drums --
+--scinsertionline:left:riff op: right: --
+--scinsertionline:left:riff op: right: --
+--scinsertionline:left:riff op: right: --
+--scinsertionline:left:drums op: right: --
+--scinsertionline:left:riff op:& right:riff2 --
+--scinsertionline:left:riff op:& right:riff2 --
+--scinsertionline:left:riff op:& right:riff2 --
+--scinsertionline:left:test op: right: --
+}
+scchunk [riff] {
+--scmusicline:  . .  .[. .  . .  . . .  . . 
+--scmusicline:  . .  . .[.  . .  . . .  . . 
+--scmusicline:  . .  .[. .  . .  . . .  . . 
+--scmusicline:  . .  [ . .  . .  . . .  . . 
+scdirectiveline
+--scmusicline:  . .  . . .[ . .  . . .  . . 
+--scmusicline:  . .  . .[.  . .  . . .  . . 
+--scmusicline:  . .  .[. .  . .  . . .  . . 
+--scmusicline:  . .  [ . .  . .  . . .  . . 
+}
+scchunk [riff2] {
+--scmusicline:  . .  . . .  . .[ . . .  . . 
+--scmusicline:  . .  . .[.  . .  . . .  . . 
+--scmusicline:  . .  . . .  . .[ . . .  . . 
+--scmusicline:  . .  . . .  . .[ . . .  . . 
+scdirectiveline
+--scmusicline:  . .  . . .[ . .  . . .  . . 
+--scmusicline:  . .  . . .  . .[ . . .  . . 
+--scmusicline:  . .  . . .  . . [. . .  . . 
+--scmusicline:  . .    . .  . .[ . . .  . . 
+}
+scchunk [drums] {
+--scmusicline:  . .  .[. .  . {  . . .  . . 
+--scmusicline:  . .  . . .  . }  . . .  . . 
+--scmusicline:  . .  . . .  . }  . . .  . . 
+--scmusicline:  . .  . . [  . }  . . .  . . 
+scdirectiveline
+--scmusicline:  . .  .[. .  . . {. . .  . . 
+--scmusicline:  . .  .]. .  . . }. . .  . . 
+--scmusicline:  . .  .]. .  . . }. . .  . . 
+--scmusicline:  . .  . . [  . . }. . .  . . 
+scdirectiveline
+scdirectiveline
+--scmusicline:        [          {          
+--scmusicline:  . .  . . .  . .  . . .  . . 
+--scmusicline:                {
+scdirectiveline
+--scmusicline:  . .  . . [  .{.  . . .  . . 
+scdirectiveline
+--scmusicline:  . .  .[. .  . {  . . .  . . 
+--scmusicline:  . .  . . .  . .  . . .  . . 
+--scmusicline:  . .  . . .  . .  . . .  . . 
+--scmusicline:  . .  . . [  . .  .{. .  . . 
+}
+scchunk [test] {
+--scmusicline:  . .( .[. .  . {  . < .  . . 
+--scmusicline:  . (  . . .  . }  . < .  . . 
+--scmusicline:  . .  . . .  .  { . .<.  . . 
+--scmusicline:  . .( . . [  .  } . . . <. . 
+scdirectiveline
+--scmusicline:  . .( .[. .  . {  . < .  . . 
+--scmusicline:  . (  . . .  . }  . < .  . . 
+--scmusicline:  . .  . . .  .  { . .<.  . . 
+--scmusicline:  . .( . . [  .  } . . . <. . 
+}
+}

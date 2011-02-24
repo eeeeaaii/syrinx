@@ -1,0 +1,19 @@
+- The controller has a module factory.
+- The controller runs the synth (iterates through the modules and calls processOneSample and processOneControlEvent and propagate.)
+- the controller calls "setupModules" on the module factory, passing it a vector of modules and a vector of links.  setupModules is supposed to populate those vectors.
+
+- module factory has only one function (setup modules).  this is what it does:
+	- finds the "main" chunk in the score file
+	- creates a sequence from it
+	- gets a list of instruments used in that sequence
+	- for each instrument I,
+		- take the main sequence
+		- remove all instruments except I
+		- create a new sequence with just that instrument
+		- add that sequence to the list of modules
+		- use the orchTranslator to create a functionmodule for that instrument
+		- do some linkup stuff having to do with the note, trig, and velo inputs into the function module (which are outputs from the sequence)
+		- add the function module to the list of modules
+- scresult is a global variable that has a pointer to the AST for the score file.
+- gl_orchTranslator is a global variable holding a pointer to the AST for the orch file.
+- a "chunk" is similar to a function (in the score file).

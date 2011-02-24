@@ -1,0 +1,182 @@
+setup::parsing score file
+setup::setting type of set directive
+setup::setting name of set directive
+setup::adding directive to hilevlist
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::creating new scmusicline
+setup::adding line to scchunk
+setup::setting name of scchunk
+setup::adding chunk to chunklist
+setup::parsing orch file
+setup::getting "main" chunk from score file
+setup::getting chunk by name
+setup::getting name of scchunk
+setup::resolving references for main chunk
+setup::getting sequence
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  .[. .  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::0
+setup::resizing
+setup::pushing
+setup::events.size()
+setup::1
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  . .[.  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::1
+setup::resizing
+setup::pushing
+setup::events.size()
+setup::3
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  .[. .  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::2
+setup::pushing
+setup::events.size()
+setup::3
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  [ . .  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::3
+setup::resizing
+setup::pushing
+setup::events.size()
+setup::7
+setup::done pushing
+setup::getting sequence line
+setup::scdirectiveline
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  . . .[ . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::5
+setup::pushing
+setup::events.size()
+setup::7
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  . .[.  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::6
+setup::pushing
+setup::events.size()
+setup::7
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  .[. .  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::7
+setup::resizing
+setup::pushing
+setup::events.size()
+setup::15
+setup::done pushing
+setup::getting sequence line
+setup::scmusicline
+setup:: . .  [ . .  . .  . . .  . . 
+
+setup::creating SeqEvent
+scorelangclasses::getting instrument name from hll
+scorelangclasses::returning: flute
+setup::start note
+setup::starting note
+setup::at position:
+setup::8
+setup::pushing
+setup::events.size()
+setup::15
+setup::done pushing
+setup::sequence length:
+setup::15
+setup::getting instruments used
+ModuleFactory::doing instrument flute
+OrchTranslator::translating
+OrchFunctionTranslator::translate entry point for flute
+OrchFunctionTranslator::stage 1
+OrchFunctionTranslator::setting up symbol table for @osc1
+OrchFunctionTranslator::setting up symbol table for @output
+OrchFunctionTranslator::setting up symbol table for @output
+OrchFunctionTranslator::setting up symbol table for @osc1
+OrchFunctionTranslator::stage 2
+OrchFunctionTranslator::finalizeModules
+OrchFunctionTranslator::finalizeLinks
+oft::src: @osc1
+oft::dst:@output
+OrchFunctionTranslator::done translation for flute
+OrchTranslator::done getting entry point
+ModuleFactory::translation complete
+Link::wambam
+ModuleFactory::a2
+Link::wambam
+ModuleFactory::b2
+Link::wambam
+ModuleFactory::c2
+ModuleFactory::finish flute
+setup::done

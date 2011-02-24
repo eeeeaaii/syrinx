@@ -1,0 +1,9 @@
+set directives are not included in the score AST.  They should be.
+refactor score AST classes:
+	put each class in its own file
+	normalize class naming conventions (use capitals)
+	rename classes to better indicate what part of the score they pertain to
+	put score AST classes in their own folder
+when there is a syntax error in the orchestra or score file, fail gracefully without core dumping.
+error checking for when a score file mentions a function name that is not in the orch file.
+
